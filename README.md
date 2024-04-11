@@ -1,6 +1,6 @@
 # To-do-list-python (version graphique et version console) 🚀
 
-Une application pour gérer les tâches quotidiennes fait en Python.
+Une application pour gérer les tâches quotidiennes, réalisé en Python.
 
 ## Informations du Projet 🤝
 **Durée :** 2 jours
