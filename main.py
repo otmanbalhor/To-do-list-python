@@ -1,9 +1,16 @@
-tasks = []
+import json
+
+try:
+    with open('tasks.json','r') as file:
+        tasks = json.load(file)
+except FileNotFoundError:
+    tasks = []
 
 def addTask():
     task = input("Please entre a task: ")
     tasks.append(task)
     print(f"Task '{task}' added to the list.")
+    save_tasks()
     
 def displayTasks():
     if not tasks:
@@ -19,15 +26,20 @@ def deleteTask():
     try:
          taskDelete = int(input("Please enter the # to delete: "))
          if taskDelete < len(tasks) and taskDelete >=0:
-            tasks.remove(taskDelete) 
+            tasks.pop(taskDelete) 
             print(f"Task '{taskDelete}' deleted from the list.")
+            save_tasks()
          else:
              print(f"Task #'{taskDelete}' not found in the list.")
     
         
     except ValueError:
         print("Invalid input")
-           
+
+def save_tasks():
+    with open('tasks.json','w') as file:
+        json.dump(tasks, file)
+    
 
 if __name__ == "__main__":
     
@@ -53,7 +65,7 @@ if __name__ == "__main__":
         elif choice == "4":
             exit()
         else:
-            print("Erreur, veuillez saisir une des options existantes.")
+            print("Error, please enter one of the existing options.")
             
             
             
