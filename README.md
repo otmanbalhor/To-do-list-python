@@ -15,6 +15,7 @@ Une application pour gérer les tâches quotidiennes, réalisé en Python.
 ![image](https://github.com/otmanbalhor/To-do-list-python/assets/151409181/04c8648e-7cc0-4939-9bfc-eaf0bdc49065)
 
 **Avec la bibliothèque CustomTkinter**
+
 ![image](https://github.com/otmanbalhor/To-do-list-python/assets/151409181/a61de5fb-d3fe-4a25-b5ad-ac87799fb495)
 
 ## Images de la to do list (version console) 📷
