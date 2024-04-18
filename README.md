@@ -14,7 +14,16 @@ Une application pour gérer les tâches quotidiennes, réalisé en Python.
 
 ![image](https://github.com/otmanbalhor/To-do-list-python/assets/151409181/04c8648e-7cc0-4939-9bfc-eaf0bdc49065)
 
-![image](https://github.com/otmanbalhor/To-do-list-python/assets/151409181/50a27f69-8757-43e4-8cd9-6b2de8878548)
+**Avec la bibliothèque CustomTkinter**
+![image](https://github.com/otmanbalhor/To-do-list-python/assets/151409181/a61de5fb-d3fe-4a25-b5ad-ac87799fb495)
+
+## Images de la to do list (version console) 📷
+
+![image](https://github.com/otmanbalhor/To-do-list-python/assets/151409181/7e8c1b0f-e303-42be-b20b-fd28e4c72165)
+
+![image](https://github.com/otmanbalhor/To-do-list-python/assets/151409181/e10a69db-7788-4d8c-8d21-8a3f287092f1)
+
+![image](https://github.com/otmanbalhor/To-do-list-python/assets/151409181/fd509cf4-640f-4cc9-a48a-962f6ecc1485)
 
 ## Fonctionnalités 🛠️
 * Possibilité d'ajouter ses taches
